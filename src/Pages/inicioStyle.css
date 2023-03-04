@@ -44,16 +44,16 @@
 .buttonCV {
   font-family: Helvetica;
   letter-spacing: 0.3rem;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 15px;
   text-align:center;
-  color: rgb(255, 0, 149);
+  color: rgb(0, 0, 0);
   background-color: white;
   cursor: pointer;
   max-width: 100px;
   width: 100%;
   outline: 3px solid;
-  outline-color:rgb(2, 174, 157) ;
+  outline-color:rgb(255, 230, 8) ;
   outline-offset: 40px;
   transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
   margin-left: 22%;
@@ -61,8 +61,8 @@
 }
 
 .buttonCV:hover {
-    color: rgb(254, 0, 148);
-    outline-color: rgba(6, 111, 176, 0.571);
+    color: rgb(254, 229, 0);
+    outline-color: rgba(0, 0, 0, 0.634);
     outline-offset: 70px; 
  
 }
@@ -70,7 +70,7 @@
    margin-left: 2%;
 }
 h1{
-  color: rgba(0, 190, 254, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   text-shadow: 1px 0 10px;
   text-align: center;
   letter-spacing: 3rem;
@@ -93,11 +93,6 @@ h1{
     width: 50%;
     margin-left: -3%;
   }
-  h4{
-    color: rgb(255, 0, 200);
-    text-shadow: 1px 0 10px;
-    margin-top: 10%;
-  }
   .parrafo p {
     margin: 15px;
     max-width: 100%; /* Ancho máximo completo en pantallas móviles */
@@ -106,14 +101,15 @@ h1{
   .iconos-container {
     flex-direction: column;
     margin-top: 25px;
-    margin-right: 40rem;
+    margin-right: 45rem;
+    margin-left: -20%;
    
   }
 
   .iconos img {
     margin-bottom: 30px;
     margin-top: 0;
-    align-items: center;
+   
    
   }
 
@@ -129,7 +125,7 @@ h1{
   font-weight: 600;
   font-size: 15px;
   text-align:center;
-  color: rgb(255, 0, 149);
+  color: rgb(255, 234, 0);
   background-color: white;
   cursor: pointer;
   max-width: 100px;
@@ -138,7 +134,7 @@ h1{
 }
   h1{
 
-    color: rgba(0, 190, 254, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     text-shadow: 1px 0 10px;
     text-align: center;
     letter-spacing: 1.8rem;

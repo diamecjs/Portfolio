@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import "./NavStyles.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -36,7 +35,6 @@ export const NavBar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-
   return (
     <header>
       <nav className="navbar">

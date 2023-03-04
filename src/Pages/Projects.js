@@ -29,7 +29,7 @@ const Projects = () => {
       <li>
         <a href="https://donde-suena.vercel.app/" class="card">
           <img
-            src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677952876/edrtyguhijk_gcoaua.png"
+            src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677969287/Dise%C3%B1o_sin_t%C3%ADtulo_16_nwfosp.png"
             class="card__image"
             alt=""
           />

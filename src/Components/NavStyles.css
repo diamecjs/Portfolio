@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #00c68a8b;
+  background-color: #000000;
  
 }
 .imagenPortada{
@@ -31,7 +31,8 @@ a {
   margin-bottom: 10%;
  }
  a:hover {
-  color: rgb(235, 88, 174);
+  transform: scale(1.1);
+  color: rgb(255, 216, 44);
 }
 
 
@@ -106,7 +107,7 @@ a {
     top: 130px;
     gap: 0;
     flex-direction: column;
-    background-color:#00c68a8b;
+    background-color:#000000ee;
     width: 100%;
     text-align: left;
     transition: 0.3s;

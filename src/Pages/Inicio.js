@@ -8,12 +8,12 @@ const Inicio = () => {
     <div>
         <img
         className="imagenPortada"
-        src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677937361/Diamela_Lares_3_zcpyod.png"
+        src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677954917/Diamela_Lares_4_vbofn6.png"
         alt="Portada"
       />
       <NavBar />
       <div className="parrafo">
-        <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677945463/diame-removebg-preview_yte99z.png" />
+        <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677955461/diame__1_-removebg-preview_iblgkx.png" />
         <p>
           ¡Hola! Soy un full stack developer, mi enfoque en el desarrollo de
           software se basa en metodologías ágiles, lo que me permite adaptarme a
