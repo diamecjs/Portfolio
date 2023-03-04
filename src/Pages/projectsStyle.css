@@ -71,12 +71,7 @@ body {
   bottom: 100%;
   right: 0;      
   z-index: 1;
-}
-
-.card__arc path {
-  fill: var(--surface-color);
-   
-}       
+}      
 
 .card:hover .card__header {
   transform: translateY(0);
@@ -90,7 +85,7 @@ body {
 }
 
 .card__title {
-  font-size: 1em;
+  font-size: 17px;
   margin: 0 0 .3em;
   color: #ffffff;
 }
@@ -99,12 +94,12 @@ body {
   display: block;
   margin: 1em 0;
   font-family: "MockFlowFont";  
-  font-size: .6em; 
+  font-size: 15px; 
   color: #ffffff;  
 }
 
 .card__status {
-  font-size: 10.em;
+  font-size: 15px;
   color: #ffffff;
 }
 
@@ -112,7 +107,7 @@ body {
   padding: 0 2em 2em;
   margin: 0;
   color: #ffffff;
-  font-size: 4.em;
+  font-size: 14px;
   font-family: "MockFlowFont";   
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -134,10 +129,10 @@ body {
   }
   
   .card__tagline {
-    font-size: 0.8em;
+    font-size: 15px;
   }
   
   .card__description {
-    font-size: 2.5em;
+    font-size: 14px;
   }
 }
