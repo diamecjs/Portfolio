@@ -7,7 +7,7 @@ import Projects from "./Projects";
 const Inicio = () => {
   return (
     <div className="principal">
-        <img
+      <img
         className="imagenPortada"
         src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677954917/Diamela_Lares_4_vbofn6.png"
         alt="Portada"
@@ -33,32 +33,51 @@ const Inicio = () => {
       <div className="iconos-container">
         <div className="iconos" id="contacto">
           <a className="icInicio" href="mailto:diame.cjs@gmail.com">
-            <img className="icInicio" src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png" />
+            <img
+              className="icInicio"
+              src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png"
+            />
           </a>
-          <a className="icInicio" href="https://www.linkedin.com/in/diamela-lares-">
-            <img className="icInicio"  src="https://cdn-icons-png.flaticon.com/512/1383/1383262.png" />
+          <a
+            className="icInicio"
+            href="https://www.linkedin.com/in/diamela-lares-"
+          >
+            <img
+              className="icInicio"
+              src="https://cdn-icons-png.flaticon.com/512/1383/1383262.png"
+            />
           </a>
           <a className="icInicio" href="https://www.github.com/diamecjs">
-            <img className="icInicio"  src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png" />
+            <img
+              className="icInicio"
+              src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png"
+            />
           </a>
           <a className="icInicio" href="https://wa.me/573148880850">
-            <img className="icInicio"  src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png" />
+            <img
+              className="icInicio"
+              src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png"
+            />
           </a>
         </div>
-        <div className="buttonC">
-          <a className="buttonCV"
+        <div >
+          <a
             href="https://drive.google.com/file/d/1nPRjsKDq7ePcKWk6fbiAXzMMb7b4Jv94/view?usp=share_link"
             download="CV Diamela"
           >
-            Descarga CV
+            {" "}
+            <button class="buttonCV">Descarga CV</button>
           </a>
         </div>
       </div>
       <div className="tec-container">
-        <Tecnologias/>
+        <Tecnologias />
       </div>
       <div className="projects" id="projects">
-        <img className="proy" src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974006/pro_ctfazo.gif"/>
+        <img
+          className="proy"
+          src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974006/pro_ctfazo.gif"
+        />
         <Projects />
       </div>
     </div>
