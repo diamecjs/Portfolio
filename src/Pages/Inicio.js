@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import NavBar from "../Components/NavBar";
 import "./inicioStyle.css";
 import Projects from "./Projects";
@@ -29,8 +29,8 @@ const Inicio = () => {
           través de:
         </p>
       </div>
-      <div class="iconos-container">
-        <div class="iconos" id="contacto">
+      <div className="iconos-container">
+        <div className="iconos" id="contacto">
           <a className="icInicio" href="mailto:diame.cjs@gmail.com">
             <img className="icInicio" src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png" />
           </a>
@@ -44,8 +44,8 @@ const Inicio = () => {
             <img className="icInicio"  src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png" />
           </a>
         </div>
-        <div class="buttonC">
-          <a class="buttonCV"
+        <div className="buttonC">
+          <a className="buttonCV"
             href="https://drive.google.com/file/d/1nPRjsKDq7ePcKWk6fbiAXzMMb7b4Jv94/view?usp=share_link"
             download="CV Diamela"
           >
@@ -54,7 +54,7 @@ const Inicio = () => {
         </div>
       </div>
       <div className="projects" id="projects">
-        <h1>Projects</h1>
+        <img className="proy" src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974006/pro_ctfazo.gif"/>
         <Projects />
       </div>
     </div>
