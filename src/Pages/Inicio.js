@@ -1,11 +1,12 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
+import Tecnologias from "../Components/Tecnologias";
 import "./inicioStyle.css";
 import Projects from "./Projects";
 
 const Inicio = () => {
   return (
-    <div>
+    <div className="principal">
         <img
         className="imagenPortada"
         src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677954917/Diamela_Lares_4_vbofn6.png"
@@ -52,6 +53,9 @@ const Inicio = () => {
             Descarga CV
           </a>
         </div>
+      </div>
+      <div className="tec-container">
+        <Tecnologias/>
       </div>
       <div className="projects" id="projects">
         <img className="proy" src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974006/pro_ctfazo.gif"/>

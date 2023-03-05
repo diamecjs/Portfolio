@@ -1,0 +1,27 @@
+.teccon {
+    margin-top: 10%;
+    height: 100px; /* ajusta la altura del contenedor según tus necesidades */
+    white-space: nowrap; /* evita que los iconos se envuelvan */
+  margin-left: 9%;
+}
+  
+  .tecno {
+    display: inline-block; /* permite que los iconos se muestren en línea */
+    margin-right: 3%;
+    width: 70px; /* ajusta la anchura de los iconos según tus necesidades */
+    height: 70px; /* ajusta la altura de los iconos según tus necesidades */
+  }
+@media screen and (max-width: 600px) {
+  .teccon {
+    display: block; /* cambia a display block para dispositivos móviles */
+    overflow-x: auto; /* cambia a overflow-x auto para dispositivos móviles */
+    white-space: nowrap; /* evita que los iconos se envuelvan */
+    width: 100%; /* ajusta la anchura del contenedor según tus necesidades */
+    height: 120px; /* ajusta la altura del contenedor según tus necesidades */
+  }
+  
+  .tecno {
+    width: 70px; /* ajusta la anchura de los iconos según tus necesidades */
+    height: 70px; /* ajusta la altura de los iconos según tus necesidades */
+  }
+}
