@@ -1,3 +1,4 @@
+import React from "react";
 import Inicio from "./Pages/Inicio";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Certificaciones from "./Pages/Certificaciones";

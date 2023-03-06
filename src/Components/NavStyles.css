@@ -4,7 +4,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: white;
+  color: black;
+}
 
+body.dark {
+  background-color: black;
+  color: white;
+}
 header {
   background-color: #000000;
  
@@ -44,6 +52,52 @@ a {
   padding: 0 24px;
   margin-top: -1%;
   
+}
+.switch {
+  background: rgb(255, 216, 44);
+  border-radius: 1000px;
+  border: none;
+  position:relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  margin-top: -35px;
+  margin-right: 10%;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #000000;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgb(255, 214, 79);
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch .active {
+  background-color: white;
+  color: #000000;
+}
+
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: black;
 }
 .sticky {
   position: fixed;

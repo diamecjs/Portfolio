@@ -63,7 +63,9 @@ const Certificaciones = () => {
     <div className="main-container">
     <NavBar/>
     <div className="heading">
-      <img className="cert" src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974728/pro_1_ozpmwn.gif"/>
+    <div class="ball"></div>
+       
+      <img className="cert" src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1678062643/Dshop/huge__1_-removebg-preview_ntb9sv.png"/>
     </div>
     <div className="cards">
       

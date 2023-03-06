@@ -18,7 +18,7 @@ const Tecnologias = () => {
           width={160} height={120}/>
       <img
         className="tecno"
-        src="https://cdn-icons-png.flaticon.com/512/3393/3393920.png"
+        src="https://cdn-icons-png.flaticon.com/512/9484/9484201.png"
         width={50} height={50}/>
 
       <img

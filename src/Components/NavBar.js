@@ -2,10 +2,12 @@ import React, { useRef, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavStyles.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FaSun, FaMoon } from 'react-icons/fa';
 
 export const NavBar = () => {
   const hamburguerRef = useRef(null);
   const navMenuRef = useRef(null);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -32,14 +34,17 @@ export const NavBar = () => {
     navMenuRef.current.classList.toggle("active");
   };
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
+  const handleClick = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle("dark");
   };
+  
+
   return (
     <header>
-      <nav className="navbar">
+      <nav className={`navbar ${isDarkMode ? "dark" : ""}`}>
         <ul className="nav-menu" ref={navMenuRef}>
-        <NavLink exact to="/" activeClassName="active">
+          <NavLink exact to="/" activeClassName="active">
             Inicio
           </NavLink>
           <NavLink exact to="/certifications" activeClassName="active">
@@ -67,6 +72,10 @@ export const NavBar = () => {
             contacto
           </Link>
         </ul>
+        <button className={`switch ${isDarkMode ? 'active' : ''}`} onClick={handleClick}>
+          <span><FaSun/></span>
+          <span><FaMoon/></span>
+        </button>
         <div
           className="hamburguer"
           ref={hamburguerRef}

@@ -60,7 +60,7 @@ const Inicio = () => {
             />
           </a>
         </div>
-        <div >
+        <div>
           <a
             href="https://drive.google.com/file/d/1nPRjsKDq7ePcKWk6fbiAXzMMb7b4Jv94/view?usp=share_link"
             download="CV Diamela"
@@ -74,12 +74,14 @@ const Inicio = () => {
         <Tecnologias />
       </div>
       <div className="projects" id="projects">
+        <div class="ball">
+        </div>
         <img
           className="proy"
-          src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677974006/pro_ctfazo.gif"
-        />
-        <Projects />
+          src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1678062643/Dshop/huge-removebg-preview_watild.png" width={500}
+          />
       </div>
+          <Projects />
     </div>
   );
 };
