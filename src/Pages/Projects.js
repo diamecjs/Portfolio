@@ -35,7 +35,7 @@ const Projects = () => {
         <div class="card__overlay">
           <div class="card__header">
             <div class="card__header-text">
-              <a href="https://donde-suena.vercel.app/">
+              <a href="https://dondesuena-front.vercel.app/">
                 <h3 class="card__title">Proyecto grupal</h3>{" "}
               </a>
               <span class="card__status">Soy Henry</span>
