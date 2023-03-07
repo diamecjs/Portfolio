@@ -16,7 +16,7 @@ const Inicio = () => {
       <div className="parrafo">
         <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677955461/diame__1_-removebg-preview_iblgkx.png" />
         <p>
-          ¡Hola! Soy un full stack developer, mi enfoque en el desarrollo de
+          ¡Hola! Soy full stack developer, mi enfoque en el desarrollo de
           software se basa en metodologías ágiles, lo que me permite adaptarme a
           los cambios y trabajar de manera colaborativa en equipo. Me gusta
           trabajar en proyectos emocionantes y desafiantes que me permitan
